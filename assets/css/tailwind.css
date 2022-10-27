@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rainbow-text {
+	@apply text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-400;
+}
+.gradient-bg {
+	@apply bg-gradient-to-b from-accent to-accent;
+}
+
+h1, h2, h3, h4, h5, p {
+	@apply text-gray-700 dark:text-white;
+}
+
+.slide-fade-enter-active {
+  transition: all .1s ease;
+}
+.slide-fade-leave-active {
+  transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateX(-10px);
+  opacity: 0;
+}
