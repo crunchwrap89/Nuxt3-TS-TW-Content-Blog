@@ -2,6 +2,9 @@
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
+Find tutorials on fun coding projects at
+[www.marcusn.dev](https://marcusn.dev)
+
 ## Setup
 
 Make sure to install the dependencies:
